@@ -7,7 +7,7 @@ app.get('/api/requirements', (_, res) => {
     const resourcesRequirements = {
         basicFps: 10,
         basicMs: 1000,
-        workersFps: 15,
+        workersFps: 10,
         workersMs: 100
     }
     res.send(resourcesRequirements);
