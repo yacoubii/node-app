@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/api/requirements', (_, res) => {
     const resourcesRequirements = {
-        basicFps: 10,
+        basicFps: 5,
         basicMs: 1000,
         workersFps: 10,
         workersMs: 100
